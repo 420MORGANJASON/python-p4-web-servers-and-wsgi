@@ -13,8 +13,8 @@ if __name__ == '__main__':
     from werkzeug.serving import run_simple
     
 #runs a server for a one-page application without complications. It is 
-# not suited for a production server that supports millions of users, but it gives us the 
-# tools we need to develop new pages for the web applications that we eventually deploy to those servers.    
+#not suited for a production server that supports millions of users, but it gives us the 
+#tools we need to develop new pages for the web applications that we eventually deploy to those servers.    
     run_simple(
         hostname='localhost',
         port=5555,
